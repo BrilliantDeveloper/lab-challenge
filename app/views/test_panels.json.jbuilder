@@ -13,7 +13,22 @@ json.data do
       json.data do
         json.array! @my_panel[:included], :id, :type
       end
-byebug
+
+    end
+  end
+end
+
+#only show test details if requested in query param
+include = params[:include]
+
+if !include.nil? && include.downcase == 'test'
+  json.included @my_panel[:included] do |test|
+    json.type test[:type]
+    json.id test[:id]
+    json.attributes do
+      json.name test[:name]
+      json.sample_volume_requirement test[:sample_volume_requirement]
+      json.sample_tube_type test[:sample_tube_type]
     end
   end
 end
