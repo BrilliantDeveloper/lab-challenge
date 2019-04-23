@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421ed81c-3506-4f14-8e75-096de946ecfe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/test_panels_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/test_panels_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_panels.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/test_panels.json.jbuilder" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -28,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_panels.json.jbuilder" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_panels.json.jbuilder" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/test_panels.json.jbuilder">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="322">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -48,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_panels_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_panels_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/test_panels_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="874">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -348,12 +350,12 @@
       <updated>1555980756939</updated>
       <workItem from="1555980766742" duration="700000" />
       <workItem from="1555982105706" duration="10716000" />
-      <workItem from="1556025194361" duration="3162000" />
+      <workItem from="1556025194361" duration="3445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14578000" />
+    <option name="totallyTimeSpent" value="14861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="135" width="1623" height="1684" extended-state="0" />
@@ -552,18 +554,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/test_panels_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/test_panels.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/test_panels.json.jbuilder">
+    <entry file="file://$PROJECT_DIR$/app/controllers/test_panels_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="874">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding />
         </state>
       </provider>

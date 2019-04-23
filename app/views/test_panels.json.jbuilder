@@ -10,8 +10,9 @@ json.data do
   end
   json.relationships do
     json.test do
-      json.data do
-        json.array! @my_panel[:included], :id, :type
+      json.data @my_panel[:included] do |item|
+        json.id item[:id]
+        json.type 'test'
       end
 
     end

@@ -36,13 +36,7 @@ class TestPanelsController < ApplicationController
     my_tests.each do |test|
       @my_panel[:sample_volume_requirement] += test[:sample_volume_requirement]
     end
-
-
-
-    my_tests.each do |item|
-      item[:type] = 'test'
-    end
-
+    
     @my_panel[:included] = my_tests
   end
 
