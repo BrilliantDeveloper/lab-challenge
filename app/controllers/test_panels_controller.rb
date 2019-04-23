@@ -2,8 +2,6 @@ class TestPanelsController < ApplicationController
 
   def show
     test_panel_id = params[:id]
-    include_test = params[:include]
-    #byebug
     test_panel = TestPanel::DATA.find { |panel| panel[:id] == test_panel_id }
 
     #gather tests
@@ -38,7 +36,7 @@ class TestPanelsController < ApplicationController
 
   end
 
-  
+
 
 
 
