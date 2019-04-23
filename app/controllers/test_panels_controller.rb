@@ -24,7 +24,9 @@ class TestPanelsController < ApplicationController
     test_panel[:tests].each do |test|
       my_tests.push Test::DATA.find { |item| item[:id] == test}
     end
-    my_tests
+
+    my_tests.sort_by { |item| item[:id]  }
+
   end
 
   def setup_test_panel_data(test_panel, my_tests)
@@ -36,7 +38,7 @@ class TestPanelsController < ApplicationController
     my_tests.each do |test|
       @my_panel[:sample_volume_requirement] += test[:sample_volume_requirement]
     end
-    
+
     @my_panel[:included] = my_tests
   end
 

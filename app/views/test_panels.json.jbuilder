@@ -24,7 +24,7 @@ include = params[:include]
 
 if !include.nil? && include.downcase == 'test'
   json.included @my_panel[:included] do |test|
-    json.type test[:type]
+    json.type 'test'
     json.id test[:id]
     json.attributes do
       json.name test[:name]
