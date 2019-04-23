@@ -33,6 +33,7 @@ class TestPanelsController < ApplicationController
     @my_panel[:id] = test_panel[:id]
     @my_panel[:price] = test_panel[:price]
     @my_panel[:sample_tube_volumes] = my_tests.map { |item| item[:sample_tube_type].to_s  }
+    @my_panel[:sample_tube_volumes].sort!
     @my_panel[:sample_volume_requirement] = 0
 
     my_tests.each do |test|
